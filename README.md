@@ -1,0 +1,107 @@
+By: Bharath RProject Name: B2N Dev Cloud LabPlatform: VirtualBox + Ubuntu + GitHub + Netlify
+
+✅ Overview
+
+This project documents the journey of building a fully offline DevOps lab using VirtualBox, Ubuntu, Git, GitHub Actions, and Apache. By Day 11, we have a working local cloud server accessible from any device in the same WiFi network.
+
+📆 Day-by-Day Summary
+
+🔹 Day 1 – Installed Git & VS Code
+
+Installed Git Bash
+
+Installed Visual Studio Code
+
+Setup basic Git config (username, email)
+
+Linked GitHub account using PAT
+
+
+🔹 Day 2 – React App Setup
+
+Created a Vite + Tailwind React app
+
+Ran development server locally
+
+Confirmed build worked
+
+
+🔹 Day 3 to 5 – GitHub Sync & Netlify Setup
+
+Created GitHub repo my-first-cloud-site
+
+Pushed React app to GitHub
+
+Linked GitHub to Netlify
+
+Deployed site manually on Netlify first
+
+
+🔹 Day 6 to 9 – GitHub Actions for Netlify CI/CD
+
+Created GitHub Actions workflow YAML file
+
+Used JamesIves/github-pages-deploy-action
+
+Commit pushed → Netlify site auto-deploys
+
+Debugged issues with push, auth, and Netlify token
+
+
+🔹 Day 10 – VM Setup with Apache
+
+Created VM using VirtualBox
+
+Installed Ubuntu Server (no GUI)
+
+Installed Apache2 with:
+
+sudo apt update
+sudo apt install apache2
+
+Verified with:
+
+curl http://localhost
+
+Set up port forwarding: 8080 (host) → 80 (guest)
+
+Accessed site from Windows via http://localhost:8080
+
+
+🔹 Day 11 – LAN Access from Other Devices
+
+Switched VirtualBox network to Bridged Adapter
+
+Got VM IP with ip a → 192.168.1.3
+
+Disabled UFW temporarily with sudo ufw disable
+
+Accessed site on phone/laptop with:
+
+http://192.168.1.3
+
+🛠 Technologies Used
+
+VirtualBox
+
+Ubuntu 20.04 LTS
+
+Apache2 Web Server
+
+Git + GitHub
+
+GitHub Actions CI/CD
+
+Netlify Hosting
+
+🚀 Skills Learned
+
+Git & GitHub workflows
+
+Local-to-cloud site deployment
+
+VirtualBox networking (NAT, Bridged)
+
+Apache hosting & port forwarding
+
+LAN-based server access
