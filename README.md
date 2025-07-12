@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 By: Bharath RProject Name: B2N Dev Cloud LabPlatform: VirtualBox + Ubuntu + GitHub + Netlify
 
 ✅ Overview
@@ -26,6 +27,7 @@ Ran development server locally
 Confirmed build worked
 
 
+
 🔹 Day 3 to 5 – GitHub Sync & Netlify Setup
 
 Created GitHub repo my-first-cloud-site
@@ -37,6 +39,7 @@ Linked GitHub to Netlify
 Deployed site manually on Netlify first
 
 
+
 🔹 Day 6 to 9 – GitHub Actions for Netlify CI/CD
 
 Created GitHub Actions workflow YAML file
@@ -46,6 +49,7 @@ Used JamesIves/github-pages-deploy-action
 Commit pushed → Netlify site auto-deploys
 
 Debugged issues with push, auth, and Netlify token
+
 
 
 🔹 Day 10 – VM Setup with Apache
@@ -66,6 +70,7 @@ curl http://localhost
 Set up port forwarding: 8080 (host) → 80 (guest)
 
 Accessed site from Windows via http://localhost:8080
+
 
 
 🔹 Day 11 – LAN Access from Other Devices
@@ -105,3 +110,51 @@ VirtualBox networking (NAT, Bridged)
 Apache hosting & port forwarding
 
 LAN-based server access
+
+
+
+✅ Day 12 - Vercel Deployment with SSH Key (Frontend Hosting)
+🔹 What We Did:
+Generated SSH Key
+Command used:
+
+bash
+
+ssh-keygen -t ed25519 -C "bharathr1130@gmail.com"
+
+
+🔸 Why?
+To securely connect GitHub with our local system and push code without entering username/password every time.
+
+Added SSH Key to GitHub
+
+Copied public key from:
+
+bash
+
+cat ~/.ssh/id_ed25519.pub
+
+
+Pasted into GitHub > Settings > SSH and GPG keys
+
+Cloned the GitHub Repo using SSH
+Example:
+
+bash
+
+git clone git@github.com:bharath123-R/vercel-react-clean.git
+
+
+Deployed React App to Vercel
+
+Connected GitHub repo to Vercel
+
+Chose the correct repo: vercel-react-clean
+
+Allowed auto-deploy from main branch
+
+✅ Successfully Deployed Site:
+🔗 https://vercel-react-clean.vercel.app/
+=======
+# offline-devops-lab
+>>>>>>> 7a52587c2643c8fe94112985650e91cd1ec8450b
