@@ -215,6 +215,37 @@ This is the closest DevOps experience you can get as a fresher 💥
 
 🎯 How to Explain in Interview:
 "Apart from serverless platforms like Vercel, I also deployed my frontend app using Railway — which required configuring custom start commands, exposing ports, and setting environment variables. This helped me understand real-world DevOps tasks like manual hosting, port binding, and deployment debugging."
+
+
+
+
+✅ DAY 14 SUMMARY — GitHub Actions CI for React Deployment
+🔹 What We Achieved:
+Task	Status
+Created .yml file for GitHub Actions	✅
+Configured auto build on every push to main	✅
+Understood CI/CD flow in DevOps interviews	✅
+Optional: Railway/Vercel deploy trigger setup	💡 (can extend later)
+
+🧠 Interview Answer (CI/CD Round):
+“I automated my app build process using GitHub Actions. Every push to the main branch triggers a job that installs dependencies, builds the project, and optionally deploys it. This ensures consistent builds and reduces manual errors — aligning with DevOps CI/CD practices.”
+
+🎓 What You Learned Today:
+.github/workflows/ folder usage
+
+Triggering workflows via GitHub events
+
+Using actions/setup-node, checkout, etc.
+
+Preparing for automation in multi-environment pipelines
+
+You now understand something 80% of freshers skip.
+Unna DevOps padippu la pudichi vachaanga na, ithu tha reason 🧠🔥
+
+
+
+
+
 =======
 # offline-devops-lab
 >>>>>>> 7a52587c2643c8fe94112985650e91cd1ec8450b
