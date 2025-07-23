@@ -245,7 +245,56 @@ Unna DevOps padippu la pudichi vachaanga na, ithu tha reason 🧠🔥
 
 
 
+Install Docker Desktop (Windows):
 
+Installed Docker Desktop successfully
+
+Verified Docker engine is running (docker info, Docker icon visible)
+
+Docker WSL Integration:
+
+Faced WSL-related issues (invalid command line options like --version)
+
+Manually checked if Ubuntu (WSL2) is working correctly
+
+Resolved most WSL-based path issues with Linux distro link
+
+Docker Project Initialization:
+
+Tried docker build for a sample project
+
+Got the error: failed to read Dockerfile: no such file or directory
+
+✅ Understood: Dockerfile must be in project root directory when building
+
+Docker Manual Initialization:
+
+Attempted npm create vite@latest to start a new project (to later Dockerize)
+
+Faced long wait / stuck issue while initializing
+
+Manually created Dockerfile later (but initially forgot to include it)
+
+Common Errors Faced (and Understood):
+
+Missing Dockerfile
+
+Docker context path not correctly set
+
+Git Bash or PowerShell confusion
+
+WSL not recognizing all Linux commands
+
+📚 Learnings from Day 15 – Docker:
+How to install Docker Desktop and verify it's working
+
+Docker commands basics: docker build, docker images, docker ps
+
+Importance of Dockerfile, working directory, and proper CLI usage
+
+Troubleshooting WSL errors on Windows
+
+Role of WSL2 in running Linux-based containers
 =======
 # offline-devops-lab
 >>>>>>> 7a52587c2643c8fe94112985650e91cd1ec8450b
